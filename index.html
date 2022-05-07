@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="block_content">
+    <div class="block">
+        <h1>Зарплата</h1>
+        <label for="vol">Основная ЗП</label><input type="text" name="adress" id="vol" class="form-control" placeholder="0" required=""/>
+        <p>Доп заработок</p>
+        <input type="text" name="adress" id="vol1" class="form-control" placeholder="0" required=""/>
+        <p>Другое</p>
+        <input type="text" name="adress" id="vol2" class="form-control" placeholder="0" required=""/>
+
+    </div>
+    <div class="blockk">
+        <h1>Траты</h1>
+        <p>Квартира/ком.платежи</p>
+        <input type="text" name="adress" id="vol3" class="form-control" placeholder="0" required=""/>
+        <p>Еда</p>
+        <input type="text" name="adress" id="vol4" class="form-control" placeholder="0" required=""/>
+        <p>Остальное</p>
+        <input type="text" name="adress" id="vol5" class="form-control" placeholder="0" required=""/>
+    </div>
+    <div class="blog">
+        <h1>Свободные средства</h1>
+        <div class="row col-12 mb-3"><input readonly type="number" id="out1" value="0"> <span class="rub">₽</span></div>
+        <h1>Итого траты</h1>
+        <div class="row col-12 mb-3"><input readonly type="number" id="out2" value="0">  <span class="rub">₽</span></div>
+        <h1>Итого ЗП</h1>
+        <div class="row col-12 mb-3"><input readonly type="number" id="out3" value="0">  <span class="rub">₽</span></div>
+
+        <br>
+
+        <div class="col-md-2 col-12">
+            <input type="button" name="adress" id="btn" class="btn-block btn btn-primary" value="Считать"/>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
